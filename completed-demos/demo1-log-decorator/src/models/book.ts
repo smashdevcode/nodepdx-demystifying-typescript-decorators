@@ -1,5 +1,6 @@
 
 import Rating from './rating';
+import log from '../decorators/log-decorator';
 
 export default class Book {
   title: string;
@@ -11,7 +12,15 @@ export default class Book {
     this.publisher = publisher;
   }
 
-  addRating(username: string, rating: number, comment: string) {
-    this.ratings.push(new Rating(username, rating, comment));
+  @log
+  addRating(username: string, rating: number, comment: string): Rating {
+    // console.log(`addRating method called with args: ${JSON.stringify(arguments)}`);
+
+    let ratingObj = new Rating(username, rating, comment);
+    this.ratings.push(ratingObj);
+
+    // console.log(`addRating method return value: ${JSON.stringify(ratingObj)}`);
+
+    return ratingObj;
   }
 }
