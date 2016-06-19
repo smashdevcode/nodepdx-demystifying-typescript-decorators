@@ -21,6 +21,7 @@
 
 * Angular 2 demo
  * Has the structure of a basic changed at all?
+ * https://angular.io/docs/ts/latest/quickstart.html
 
 * Express demo
  * https://shellmonger.com/2015/07/30/node-mvc-controllers-and-ecmascript-2015/
@@ -46,6 +47,9 @@
  * Why are they interesting?
  * How do they work?
   * Dispel the magic
+
+* Walkthrough the demo app
+ * Show the book titles that our app is tracking
 
 * Method decorators are the simpliest to implement
 * Property decorators require some extra work
