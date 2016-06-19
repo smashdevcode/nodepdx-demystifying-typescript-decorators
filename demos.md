@@ -3,7 +3,19 @@
 
 ## Demo 1: Angular 2 Decorators
 
-TODO
+The Angular team has made a big bet on decorators. Let's look at a simple "hello world" Angular 2 app.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Demo 2: Log Decorator
 

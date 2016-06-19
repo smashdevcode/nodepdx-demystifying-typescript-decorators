@@ -1,8 +1,6 @@
 
 import Rating from './rating';
-import log from '../decorators/log-decorator';
-import perf from '../decorators/perf-decorator';
-import memoize from '../decorators/memoize-decorator';
+import {log, perf, memoize} from '../decorators';
 import sleep from '../helpers/sleep';
 
 @log

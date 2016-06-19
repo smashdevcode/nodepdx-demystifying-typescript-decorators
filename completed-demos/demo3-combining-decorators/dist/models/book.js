@@ -6,9 +6,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var rating_1 = require('./rating');
-var log_decorator_1 = require('../decorators/log-decorator');
-var perf_decorator_1 = require('../decorators/perf-decorator');
-var memoize_decorator_1 = require('../decorators/memoize-decorator');
+// import log from '../decorators/log-decorator';
+// import perf from '../decorators/perf-decorator';
+// import memoize from '../decorators/memoize-decorator';
+var decorators_1 = require('../decorators');
 var sleep_1 = require('../helpers/sleep');
 var Book = (function () {
     function Book(title, publisher) {
@@ -30,18 +31,18 @@ var Book = (function () {
         };
     };
     __decorate([
-        log_decorator_1.default
+        decorators_1.log
     ], Book.prototype, "title", void 0);
     __decorate([
-        log_decorator_1.default
+        decorators_1.log
     ], Book.prototype, "publisher", void 0);
     __decorate([
-        log_decorator_1.default,
-        perf_decorator_1.default,
-        memoize_decorator_1.default
+        decorators_1.log,
+        decorators_1.perf,
+        decorators_1.memoize
     ], Book.prototype, "addRating", null);
     Book = __decorate([
-        log_decorator_1.default
+        decorators_1.log
     ], Book);
     return Book;
 }());

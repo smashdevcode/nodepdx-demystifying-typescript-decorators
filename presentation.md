@@ -9,15 +9,10 @@
 
 
 
-* Combining decorators demo
-
-
-
-
-
 * Angular 2 demo
  * Has the structure of a basic changed at all?
  * https://angular.io/docs/ts/latest/quickstart.html
+
 
 
 
