@@ -9,19 +9,19 @@
 
 
 
-
-* Update log decorator demo to use book and book rating models
- * Use fake book titles and images
- * http://imgur.com/gallery/vqUQ5
+* Combining decorators demo
 
 
 
 
-* Angular 2 demo? Or work up an Express demo?
 
 * Angular 2 demo
  * Has the structure of a basic changed at all?
  * https://angular.io/docs/ts/latest/quickstart.html
+
+
+
+* Just show slides of the following
 
 * Express demo
  * https://shellmonger.com/2015/07/30/node-mvc-controllers-and-ecmascript-2015/
@@ -36,7 +36,7 @@
 
 
 
-* Start by showing the Angular 2 demo?
+* Start by showing the Angular 2 demo
  * "If you've seen decorators before, this might have been where you saw them."
 
 * Need to add message that our decorator implementation is simplistic
@@ -61,11 +61,14 @@
 
 
 * Prepare demos with code snippets
+ * Copy completed code to the _demo folders
+ * Remove completed code
 
 * Put together slides
  * Pull slides and images from other presentations
 
 * Rehearse and time
+ * Copy the demo folders to the desktop (don't want to modify the starting point!)
  * Make sure that the presentation is 30 minutes or less
  * Update flow and make edits
 
