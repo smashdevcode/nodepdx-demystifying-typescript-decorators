@@ -35,6 +35,11 @@
 
 
 
+* Add slide that shows the high level outline
+ * Demo 1
+ * Introduction
+ * Demos 2 and 3
+ * Outro
 
 * Start by showing the Angular 2 demo
  * "If you've seen decorators before, this might have been where you saw them."
@@ -56,6 +61,9 @@
  * Hidden backing value property
  * Fixing calls to JSON.stringify
 
+* This is a "future" look at what is coming in JavaScript
+ * I wouldn't run out and start using decorators in all of my production apps
+ * That being said, if you're using TypeScript, there might be situations where it's "okay"
 
 
 
