@@ -9,22 +9,9 @@
 
 
 
-* Angular 2 demo
- * Has the structure of a basic changed at all?
- * https://angular.io/docs/ts/latest/quickstart.html
+* Put together slides
+ * Pull slides and images from other presentations
 
-
-
-
-* Just show slides of the following
-
-* Express demo
- * https://shellmonger.com/2015/07/30/node-mvc-controllers-and-ecmascript-2015/
- * https://www.npmjs.com/package/express-decorators
- * https://www.npmjs.com/package/ts-express-decorators
-
-* lodash demo
- * https://www.npmjs.com/package/lodash-decorators
 
 
 
@@ -60,15 +47,22 @@
  * I wouldn't run out and start using decorators in all of my production apps
  * That being said, if you're using TypeScript, there might be situations where it's "okay"
 
+* Just show slides of the following
+  * Express demo
+    * https://shellmonger.com/2015/07/30/node-mvc-controllers-and-ecmascript-2015/
+    * https://www.npmjs.com/package/express-decorators
+    * https://www.npmjs.com/package/ts-express-decorators
+  * lodash demo
+    * https://www.npmjs.com/package/lodash-decorators
+
+
+
 
 
 
 * Prepare demos with code snippets
  * Copy completed code to the _demo folders
  * Remove completed code
-
-* Put together slides
- * Pull slides and images from other presentations
 
 * Rehearse and time
  * Copy the demo folders to the desktop (don't want to modify the starting point!)
