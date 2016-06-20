@@ -1,15 +1,6 @@
 
 # Presentation
 
-## TODO
-
-* Remove Angular demo?
-* Renumber demos
-* Make repo public
-
-
-
-
 ## Overview
 
 ### Decorators
@@ -154,10 +145,6 @@ TypeScript 2.1
 
 * Follow the proposal
 * See [https://github.com/wycats/javascript-decorators/blob/master/interop/reusability.md](https://github.com/wycats/javascript-decorators/blob/master/interop/reusability.md)
-
-### Resources
-
-* See my GitHub repo for a list of resources
 
 ### Thanks
 

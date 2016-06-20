@@ -1,53 +1,7 @@
 
 # Demos
 
-## Preparation
-
-* Copy the demo folders to the desktop
-* Run `npm install` within each demo folder
-* Test running each app "as is"
-
-## Demo 1: Angular 2 Decorators
-
-The Angular team has made a big bet on decorators. Let's look at a simple "hello world" Angular 2 app.
-
-Our Angular 2 app consists of a single HTML page. Within that HTML page is an element named `my-app`.
-
-If we look in the `app` folder, we'll see two files. The first file, `app.component.ts`, is our component containing all of the code related to our `app` component. The second file, `main.ts`, is responsible for bootstrapping our app.
-
-If we run our app, you'll notice that we're currently getting an error.
-
-```
-No Directive annotation found on AppComponent
-```
-
-That's because we're attempting to bootstrap our AppComponent class but Angular doesn't recognize our component. We need to add the `Component` decorator.
-
-First we need to import our component.
-
-Snippet: _ai
-
-```
-import { Component } from '@angular/core';
-```
-
-Then we need to add the `Component` decorator.
-
-Snippet: _ac
-
-```
-@Component({
-  selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
-})
-export class AppComponent { }
-```
-
-The `Component` decorator not only registers our component with Angular but also configures it.
-
-This is just one example of how Angular 2 uses decorators.
-
-## Demo 2: Log Decorator
+## Demo 1: Log Decorator
 
 Imagine that we want to debug what is happening inside of the `Book.addRating` method. We could use the debugger or we could add `console.log` statements to the method.
 
@@ -189,7 +143,7 @@ export default function log(target: Object, key: string, descriptor: TypedProper
  * Properly wrapping a constructor function requires some effort
  * Decorating a property requires you to create a hidden backing value property and possibly fix calls to JSON.stringify
 
-## Demo 3: Combining Decorators
+## Demo 2: Combining Decorators
 
 This is the same app as before, except now we have an improved `log` decorator that can be used at the class, property, or method level.
 
