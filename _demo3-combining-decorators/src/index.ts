@@ -13,5 +13,5 @@ let book2 = new Book('Resumé Driven Development', 'O\'Reilly Media');
 // let book10 = new Book('Taking on Needless Dependencies', 'O\'Reilly Media');
 
 book1.addRating('johnsmith', 4, 'Love this book!');
-book1.addRating('johnsmith', 4, 'Love this book!');
+// book1.addRating('johnsmith', 4, 'Love this book!');
 book1.addRating('sallyjones', 2, 'This book was riddled with mistakes.');

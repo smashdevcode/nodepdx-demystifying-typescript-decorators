@@ -16,7 +16,7 @@ export default function log(target: any, key: string = null, descriptor: TypedPr
 }
 
 function logClass(target: any) {
-  console.log(`The ${target.name} has been declared`);
+  console.log(`The class ${target.name} has been declared`);
 
   return wrapConstructor(
     target,
