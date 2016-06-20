@@ -168,6 +168,13 @@ export default function log(target: Object, key: string, descriptor: TypedProper
 }
 ```
 
+### Summary
+
+* Method decorators are the simpliest to implement
+* Class and property decorators require some extra work
+ * Properly wrapping a constructor function requires some effort
+ * Decorating a property requires you to create a hidden backing value property and possibly fix calls to JSON.stringify
+
 ## Demo 3: Combining Decorators
 
 This is the same app as before, except now we have an improved `log` decorator that can be used at the class, property, or method level.
