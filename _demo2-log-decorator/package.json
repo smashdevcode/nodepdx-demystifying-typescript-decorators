@@ -1,0 +1,18 @@
+{
+  "name": "demo1-log-decorator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run typings install",
+    "start": "node dist/index.js",
+    "typings": "typings"
+  },
+  "author": "James Churchill",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}

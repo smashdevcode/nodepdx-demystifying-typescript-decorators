@@ -23,9 +23,19 @@ No Directive annotation found on AppComponent
 
 That's because we're attempting to bootstrap our AppComponent class but Angular doesn't recognize our component. We need to add the `Component` decorator.
 
+First we need to import our component.
+
+Snippet: _ai
+
 ```
 import { Component } from '@angular/core';
+```
 
+Then we need to add the `Component` decorator.
+
+Snippet: _ac
+
+```
 @Component({
   selector: 'my-app',
   template: '<h1>My First Angular 2 App</h1>'
@@ -40,6 +50,8 @@ This is just one example of how Angular 2 uses decorators.
 ## Demo 2: Log Decorator
 
 Imagine that we want to debug what is happening inside of the `Book.addRating` method. We could use the debugger or we could add `console.log` statements to the method.
+
+Snippets: _dc1 and _dc2
 
 ```
 addRating(username: string, rating: number, comment: string): Rating {
@@ -75,6 +87,8 @@ Let's implement our `@log` decorator.
 1. Add a `decorators` folder.
 
 2. Add a `log-decorator.ts` file in that folder.
+
+Snippet: _dl
 
 ```
 export default function log(target: Object, key: string, descriptor: TypedPropertyDescriptor<any>) {
@@ -265,6 +279,8 @@ function logProperty(target: Object, key: string) {
 ```
 
 The getter and setter functions are defined on the prototype object, so they are shared across object instances. Unfortunately, `JSON.stringify` only enumerates visible properties, so we've lost our property values. We can restore those properties by providing our own implementation of the `toJSON` method.
+
+Snippet: _cj
 
 ```
 toJSON() {

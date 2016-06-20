@@ -1,14 +1,7 @@
 
 # Presentation
 
-
-
-
 ## TODO
-
-* Prepare demos with code snippets
- * Copy completed code to the _demo folders
- * Remove completed code
 
 * Rehearse and time
  * Copy the demo folders to the desktop (don't want to modify the starting point!)
@@ -18,10 +11,6 @@
  * Update flow and make edits
 
 * Make repo public
-
-
-
-
 
 ## Overview
 

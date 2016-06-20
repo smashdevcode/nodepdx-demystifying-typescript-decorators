@@ -1,0 +1,14 @@
+"use strict";
+var book_1 = require('./models/book');
+var book1 = new book_1.default('Copying and Pasting from Stack Overflow', 'O\'Reilly Media');
+var book2 = new book_1.default('Resumé Driven Development', 'O\'Reilly Media');
+var book3 = new book_1.default('Blaming the User', 'O\'Reilly Media');
+var book4 = new book_1.default('Googling the Error Message', 'O\'Reilly Media');
+var book5 = new book_1.default('Whiteboard Interviews', 'O\'Reilly Media');
+var book6 = new book_1.default('Writing Code that Nobody Else Can Read', 'O\'Reilly Media');
+var book7 = new book_1.default('"Temporary" Workarounds', 'O\'Reilly Media');
+var book8 = new book_1.default('Trying Stuff Until it Works', 'O\'Reilly Media');
+var book9 = new book_1.default('Rewriting Your Front End Every Six Weeks', 'O\'Reilly Media');
+var book10 = new book_1.default('Taking on Needless Dependencies', 'O\'Reilly Media');
+book1.addRating('johnsmith', 4, 'Love this book!');
+book1.addRating('sallyjones', 2, 'This book was riddled with mistakes.');
