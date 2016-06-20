@@ -3,14 +3,12 @@
 
 ## TODO
 
-* Rehearse and time
- * Copy the demo folders to the desktop (don't want to modify the starting point!)
- * Use external monitor to simulate projector
- * Stand up :)
- * Make sure that the presentation is 30 minutes or less
- * Update flow and make edits
-
+* Remove Angular demo?
+* Renumber demos
 * Make repo public
+
+
+
 
 ## Overview
 
@@ -103,11 +101,6 @@ TypeScript can be summarized into three things
 * Statement completion
 * Code refactoring
 
-### Who’s Using Decorators?
-
-* Angular 2
-* Aurelia
-
 ## Demos
 
 So, how do decorators work? Let's find out by creating our own decorator.
@@ -138,12 +131,9 @@ So, how do decorators work? Let's find out by creating our own decorator.
 
 ### Word of Caution
 
-* My decorator implementations are simplistic
-* Helpful when doing short presentations, not so helpful in real apps
-* Things get more complicated when properly handling chained decorators
-* This is a "future" look at what is coming in JavaScript
- * I wouldn't run out and start using decorators in all of my production apps
- * That being said, if you're using TypeScript, there might be situations where it's "okay"
+* Decorators are an ECMAScript proposal, not a finalized feature of JavaScript
+* The proposal recently changed, but the external syntax stayed the same
+* Using external libraries of decorators, like with Angular 2, is safer to do than developing your own
 
 ### The Future
 
